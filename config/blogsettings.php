@@ -1,0 +1,10 @@
+<?php
+return [
+	'POSTS_PER_PAGE_HOME' => 1,
+    'POSTS_PER_PAGE_CATE' => 1,
+    'POSTS_PER_PAGE_USER' => 1,
+    'COMMENTS_PER_PAGE' => 1,
+    'POSTS_PER_PAGE_SEARCH' => 1,
+	'RELATE_POST_NUM' => 4,
+    'APPROVE_COMMENT' => 0
+];

@@ -1,0 +1,153 @@
+.navbar {
+    margin-bottom: 0;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+    top: 0;
+    right: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu > a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover > a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left > .dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+}
+
+/* My Style */
+
+.wrapper {
+    margin-top: 50px;
+    padding-top: 15px;
+}
+
+.footer {
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.navbar {
+    margin-bottom: 15px;
+}
+
+.post {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #5890ad;
+}
+
+.post-title {
+    margin: 0 0 10px 0;
+    padding: 7px 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px dashed #5890ad;
+}
+
+.thumb, .post-detail {
+    margin-bottom: 15px;
+}
+
+.thumb > img {
+    border: 1px solid #afd9ee;
+    padding: 5px;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .thumb, .post-detail {
+        width: 100%;
+    }
+}
+
+.post-info, .view-post-info {
+    border-bottom: 1px dashed #5890ad;
+    margin-bottom: 10px;
+    padding: 5px 0;
+}
+
+.post-info .breadcrumb {
+    padding: 0;
+    margin: 0 0 10px 0;
+    background: transparent;
+}
+
+.wrap-pagination {
+    text-align: center;
+}
+
+.wrap-pagination > .pagination {
+    margin: 10px 0;
+}
+
+.post-image {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #5890ad;
+}
+
+.post-image img {
+    max-width: 100%;
+}
+
+.post-body {
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #5890ad;
+}
+
+.post-tags {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.media-body {
+    border-bottom: 1px dashed #afd9ee;
+}
+
+.media-reply {
+    padding-left: 50px;
+}
+
+.manage-comment {
+    display: none;
+}
+
+.media-body:hover > .manage-comment {
+    display: block;
+}
